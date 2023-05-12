@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="77.0" prefWidth="377.0" style="-fx-background-color: #ffbe79;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.KolicinaPageController">
+   <children>
+      <Label layoutX="84.0" layoutY="21.0" style="-fx-text-fill: #713d12;" text="Unesi količinu:" textFill="#713d12">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <MenuButton fx:id="menuButton" alignment="CENTER" layoutX="237.0" layoutY="13.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: transparent; -fx-font-size: 20;" text="1" textFill="#713d12">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </MenuButton>
+      <Button fx:id="button_OK" layoutX="318.0" layoutY="13.0" mnemonicParsing="false" onAction="#goToMeniPage" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent; -fx-border-color: #713d12; -fx-border-radius: 10;" text="OK" textFill="#713d12">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="label_ID" alignment="CENTER" layoutX="14.0" layoutY="13.0" prefHeight="50.0" prefWidth="58.0" style="-fx-border-color: #713d12; -fx-border-radius: 10;" text="Label" textFill="#713d12">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

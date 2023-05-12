@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="91.0" prefWidth="412.0" style="-fx-background-color: #ffbe79;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="4.0" layoutY="8.0" prefHeight="74.0" prefWidth="403.0" style="-fx-text-fill: #713d12;" text="Korisničko ime ili lozinka su pogrešni! Pokušajte ponovo." textAlignment="CENTER" textFill="#713d12" wrapText="true">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

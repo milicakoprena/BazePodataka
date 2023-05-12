@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="665.0" prefWidth="478.0" style="-fx-background-color: #fdf0e2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PregledRecenzijaController">
+   <children>
+      <ImageView fx:id="imageView_Background" fitHeight="665.0" fitWidth="478.0" layoutX="1.0" opacity="0.88" pickOnBounds="true" style="-fx-view-order: 2;" AnchorPane.leftAnchor="1.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@resources/gradient.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="0.68" contrast="0.58" hue="0.02" saturation="0.58" />
+         </effect>
+      </ImageView>
+      <AnchorPane prefHeight="58.0" prefWidth="478.0" style="-fx-background-color: #ffbe79;">
+         <children>
+            <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/restaurant.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.21" />
+               </effect>
+            </ImageView>
+            <Label fx:id="label_ImeRestorana" layoutX="61.0" layoutY="11.0" text="Ime restorana" textFill="#713d12">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ListView fx:id="listView_Recenzije" editable="true" layoutX="13.0" layoutY="112.0" prefHeight="500.0" prefWidth="450.0" />
+      <Button layoutX="14.0" layoutY="599.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" style="-fx-background-color: transparent;" />
+      <CheckBox fx:id="checkBoxMoje" layoutX="340.0" layoutY="74.0" mnemonicParsing="false" onAction="#prikaziMoje" text="Moje recenzije" textFill="#713d12">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkBoxSve" layoutX="14.0" layoutY="74.0" mnemonicParsing="false" onAction="#prikaziSve" text="Sve recenzije" textFill="#713d12">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>

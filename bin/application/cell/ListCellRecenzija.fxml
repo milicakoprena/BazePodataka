@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="54.0" prefWidth="440.0" style="-fx-background-color: #ffe6ab;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="label" layoutX="47.0" layoutY="9.0" prefHeight="38.0" prefWidth="295.0" style="-fx-text-fill: #713d12;" text="Label" textAlignment="CENTER" textFill="#713d12" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="40.0" fitWidth="35.0" layoutX="7.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@open-book.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button" alignment="CENTER_RIGHT" layoutX="395.0" layoutY="13.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: transparent;" />
+      <Label fx:id="label_Ime" alignment="CENTER_RIGHT" layoutX="312.0" layoutY="9.0" prefHeight="38.0" prefWidth="82.0" style="-fx-text-fill: #713d12;" text="Label" textAlignment="RIGHT" textFill="#713d12" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
